@@ -4,7 +4,7 @@ authorName: Jon Thomas
 authorUrl: https://twitter.com/wjonthomas
 ---
 
-**Collections** allow you to create a single data set out of multiple pieces of data, and loop over them so you can output them them in different ways. A common use for collections might be to display a list of blog posts. The Eleventy documentation [goes into great detail on collections](https://www.11ty.dev/docs/collections/), so let's just look at the most basic way you can create your first collection.
+**Collections** allow you to create a single data set out of multiple pieces of data, and loop over them so you can output them in different ways. A common use for collections might be to display a list of blog posts. The Eleventy documentation [goes into great detail on collections](https://www.11ty.dev/docs/collections/), so let's just look at the most basic way you can create your first collection.
 
 ### Prerequisites
 
@@ -23,7 +23,7 @@ _src/
     my-third-post.md
 ```
 
-3. Add some front matter each file. For now, we'll just specify a **layout**, **title** and a **tag**. **Tags** are the easiest way to establish a collection of related data.
+3. Add a front matter to each file. For now, we'll just specify a **layout**, **title** and a **tag**. **Tags** are the easiest way to establish a collection of related data.
 
 Here's how **my-first-post.md** looks.
 
